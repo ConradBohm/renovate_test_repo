@@ -4,11 +4,7 @@
     {
       "matchUpdateTypes": ["major"],
       "asasignees": ["ConradBohm"]
-    },
-    {
-      "matchPackageNames": ["numpy"],
-      "labels": ["label for numpy packages"]
-    },
+    }
   ],
   "pip_requirements": {
     "fileMatch": [
