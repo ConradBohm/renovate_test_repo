@@ -10,7 +10,7 @@
       "dependencies", "python"
     ], 
     "packageRules": [
-      'matchUpdateTypes': ['major','minor']
+      "matchUpdateTypes": ['major','minor']
     ]
   },
 }
