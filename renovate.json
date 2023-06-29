@@ -2,11 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchUpdateTypes": ["major"]
+      "matchUpdateTypes": ["major"],
+      "asasignees": ["ConradBohm"]
     },
     {
       "matchPackageNames": ["numpy"],
-      "dependencyDashboardApproval": true
+      "labels": ["label for numpy packages"]
     },
   ],
   "pip_requirements": {
