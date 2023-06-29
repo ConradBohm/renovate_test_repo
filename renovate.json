@@ -2,8 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchUpdateTypes": ["major"],
-      "asasignees": ["ConradBohm"]
+      "matchUpdateTypes": ["major"]
     }
   ],
   "pip_requirements": {
