@@ -3,7 +3,11 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["major"]
-    }
+    },
+    {
+      "matchPackageNames": ["numpy"],
+      "dependencyDashboardApproval": true
+    },
   ],
   "pip_requirements": {
     "fileMatch": [
