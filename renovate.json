@@ -9,7 +9,8 @@
     "labels": [
       "dependencies", "python"
     ], 
-    "packageRules": []
+    "packageRules": [
+      'matchUpdateTypes': ['major','minor']
+    ]
   },
-  "ansible-galaxy": {"enabled": false}
 }
