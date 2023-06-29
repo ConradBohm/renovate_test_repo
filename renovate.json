@@ -9,6 +9,7 @@
     "labels": [
       "dependencies", "python"
     ], 
+    "packageRules": []
   },
   "packageRules": [
     "matchUpdateTypes": ["major","minor"]
